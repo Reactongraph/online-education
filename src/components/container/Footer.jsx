@@ -9,13 +9,16 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
+    // Footer container with motion animation
     <motion.div
       initial={{ height: 0 }}
       whileInView={{ height: "auto" }}
       transition={{ duration: 1 }}
       className="bg-Teal p-10"
     >
+      {/* Grid layout for responsive design */}
       <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 text-white">
+        {/* Section 1: Get Started */}
         <div>
           <div className="font-bold mb-6">Get Started</div>
           <p className="text-sm leading-7">
@@ -23,6 +26,8 @@ const Footer = () => {
             saepe cumque. Veritatis sunt commodi
           </p>
         </div>
+
+        {/* Section 2: Services */}
         <div>
           <div className="font-bold mb-6">Services</div>
           <div className="flex flex-col gap-4">
@@ -41,6 +46,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
+
+        {/* Section 3: Company */}
         <div>
           <div className="font-bold mb-6">Company</div>
           <div className="flex flex-col gap-4">
@@ -58,6 +65,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
+
+        {/* Section 4: Follow us */}
         <div>
           <div className="font-bold mb-6">Follow us</div>
           <div className="text-sm mb-4">skillexlearning@gmail.com</div>
