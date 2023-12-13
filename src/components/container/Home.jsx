@@ -48,8 +48,8 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-[60%]">
-          <img src={student} alt="" />
+        <div className="md:w-[60%] p-4 border-[3px] border-solid border-Teal rounded-lg">
+          <img src={student} alt=""/>
         </div>
       </div>
       <div>
