@@ -16,7 +16,7 @@ const Footer = () => {
       // transition={{ duration: 1 }}
       initial={{ scale: 0 }}
       whileInView={{ scale: 1 }}
-      transition={{ duration: 0.9 }}
+      transition={{ duration: 0.5 }}
       className="bg-Teal p-10"
     >
       {/* Grid layout for responsive design */}

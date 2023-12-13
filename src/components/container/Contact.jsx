@@ -22,7 +22,7 @@ const Contact = () => {
         <motion.form
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
-          transition={{ duration: 0.2 }}
+          transition={{ duration: 0.3 }}
           className="mt-5"
         >
           {/* Email input field */}
