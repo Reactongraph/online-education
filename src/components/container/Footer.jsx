@@ -11,9 +11,12 @@ const Footer = () => {
   return (
     // Footer container with motion animation
     <motion.div
-      initial={{ height: 0 }}
-      whileInView={{ height: "auto" }}
-      transition={{ duration: 1 }}
+      // initial={{ height: 0 }}
+      // whileInView={{ height: "auto" }}
+      // transition={{ duration: 1 }}
+      initial={{ scale: 0 }}
+      whileInView={{ scale: 1 }}
+      transition={{ duration: 0.9 }}
       className="bg-Teal p-10"
     >
       {/* Grid layout for responsive design */}
