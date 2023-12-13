@@ -48,12 +48,12 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-[60%] p-4 border-[3px] border-solid border-Teal rounded-lg">
+        <div className="md:w-[60%] p-4 border-[3px] border-solid border-Teal rounded-lg my-5 md:my-0  ">
           <img src={student} alt=""/>
         </div>
       </div>
       <div>
-        <p className="text-center text-xl">
+        <p className="text-center text-xl mt-5">
           We collaborate with{" "}
           <span className="text-Teal">
             100+ leading universities ans companies
