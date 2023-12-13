@@ -53,7 +53,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <p className="text-center text-xl mt-5">
+        <p className="text-center text-xl mt-4">
           We collaborate with{" "}
           <span className="text-Teal">
             100+ leading universities ans companies
